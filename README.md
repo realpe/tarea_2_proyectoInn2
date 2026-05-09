@@ -1,4 +1,4 @@
-# Detección de Billetes Colombianos con YOLOv8
+# Detección de Billetes con YOLOv8
 **Proyecto de Innovación — Maestría en IA Aplicada**
 
 Modelo de visión artificial que detecta billetes colombianos de $2.000, $10.000 y $50.000
@@ -24,10 +24,10 @@ El archivo `Video_test.mp4` contiene la demostración del modelo funcionando en 
 sobre una cámara MacBook, obteniendo **muy buenos resultados** en la detección y clasificación
 de los tres billetes:
 
-- ✅ Detección correcta de billetes de $2.000, $10.000 y $50.000
-- ✅ Cálculo preciso del total del dinero visible en escena
-- ✅ Funcionamiento fluido a ~15 FPS en MacBook con chip Apple Silicon
-- ✅ Robustez ante variaciones de iluminación, ángulo y estado del billete
+- Detección correcta de billetes de $2.000, $10.000 y $50.000
+- Cálculo preciso del total del dinero visible en escena
+- Funcionamiento fluido a ~15 FPS en MacBook con chip Apple Silicon
+- Robustez ante variaciones de iluminación, ángulo y estado del billete
 
 > El video fue grabado directamente desde el notebook `Billetes_MacBook_Local.ipynb`
 > usando el modelo `best.pt` entrenado en Google Colab.
