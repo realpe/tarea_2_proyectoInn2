@@ -1,7 +1,7 @@
 # Detección de Billetes con YOLOv8
 **Proyecto de Innovación — Maestría en IA Aplicada**
 
-Modelo de visión artificial que detecta billetes colombianos de $2.000, $10.000 y $50.000
+Modelo de visión artificial que detecta monedas colombianas de $50, $100, $200, $500 y $1.000, y billetes colombianos de $2.000, $10.000 y $50.000
 y calcula el total del dinero visible en escena usando una cámara en tiempo real.
 
 ---
@@ -12,6 +12,7 @@ y calcula el total del dinero visible en escena usando una cámara en tiempo rea
 |---|---|
 | `best.pt` | Modelo entrenado (YOLOv8m) — listo para usar |
 | `Billetes_Colombia_YOLOv8_FINAL.ipynb` | Notebook principal: entrenamiento en Google Colab |
+| `Coins.ipynb` | Notebook principal: entrenamiento en Google Colab |
 | `Billetes_MacBook_Local.ipynb` | Notebook para correr el modelo en MacBook con cámara |
 | `Video_test.mp4` | **Evidencia de prueba** — detección en tiempo real con resultados |
 | `bill_train.v1i.yolov8/` | Dataset: imágenes etiquetadas en formato YOLOv8 |
