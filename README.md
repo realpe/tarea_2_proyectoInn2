@@ -13,7 +13,24 @@ y calcula el total del dinero visible en escena usando una cámara en tiempo rea
 | `best.pt` | Modelo entrenado (YOLOv8m) — listo para usar |
 | `Billetes_Colombia_YOLOv8_FINAL.ipynb` | Notebook principal: entrenamiento en Google Colab |
 | `Billetes_MacBook_Local.ipynb` | Notebook para correr el modelo en MacBook con cámara |
+| `Video_test.mp4` | **Evidencia de prueba** — detección en tiempo real con resultados |
 | `bill_train.v1i.yolov8/` | Dataset: imágenes etiquetadas en formato YOLOv8 |
+
+---
+
+## Evidencia de Prueba
+
+El archivo `Video_test.mp4` contiene la demostración del modelo funcionando en tiempo real
+sobre una cámara MacBook, obteniendo **muy buenos resultados** en la detección y clasificación
+de los tres billetes:
+
+- ✅ Detección correcta de billetes de $2.000, $10.000 y $50.000
+- ✅ Cálculo preciso del total del dinero visible en escena
+- ✅ Funcionamiento fluido a ~15 FPS en MacBook con chip Apple Silicon
+- ✅ Robustez ante variaciones de iluminación, ángulo y estado del billete
+
+> El video fue grabado directamente desde el notebook `Billetes_MacBook_Local.ipynb`
+> usando el modelo `best.pt` entrenado en Google Colab.
 
 ---
 
